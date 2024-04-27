@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'roboto',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('img2.jpg');
+    background-position:center;
+    background-size:cover;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+    align-items: right;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transform: transform 0.5s;
+}
+.card1{
+    background-image: url('img1.jpg');
+}
+.card2{
+    background-image: url('Yala-national-park-fu.jpg');
+}
+.card3{
+    background-image: url('img4.jpg');
+}
+.card4{
+    background-image: url('800x750-17.jpg');
+}
+.card5{
+    background-image: url('Watersports-in-Pasikuda.jpg');
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color:aqua;
+    text-shadow: 0 0 5px #000000;
+    font-size: 15px;
+}
+.card p{
+    color:aliceblue;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    font-size: 10px;
+}
+.card p1{
+    color:rgb(255, 0, 0);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    font-size: 15px;
+}
